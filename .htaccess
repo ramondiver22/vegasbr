@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+# Disable index view
+Options -Indexes
+
+# Hide a specific file
+<Files .env.development>
+    Order allow,deny
+    Deny from all
+</Files>

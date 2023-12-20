@@ -1,0 +1,21 @@
+{
+  "name": "fivers-bet-script",
+  "version": "1.0.0",
+  "description": "Fivers-Bet Whitelabel Casino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fivers-bet.git"
+  },
+  "keywords": [
+    "whitelabel",
+    "casino",
+    "fivers",
+    "bet"
+  ],
+  "publisher": "Jackson, Andrew",
+  "license": "ISC"
+}
