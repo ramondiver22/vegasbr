@@ -1,4 +1,4 @@
-# Someone told me this script has trojan, you need to carefully look the code.
+# Someone told me that there is a Trojan horse in this script. You need to look at the code carefully.
 # How to deploy on localhost
 
 1. Copy project folder to htdocs folder of xampp installation.
